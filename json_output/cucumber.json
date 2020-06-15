@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11516326600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "dealsWithMapStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Free CRM deal test",
+        "description": "",
+        "id": "data-table-using-map-concept-in-cucumber;free-crm-deal-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1081301300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "dealsWithMapStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 172172400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is already on login page",
+            "match": {
+              "location": "dealsWithMapStepDefinition.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9289107100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on login button",
+            "match": {
+              "location": "dealsWithMapStepDefinition.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 577935400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the username and password",
+            "match": {
+              "location": "dealsWithMapStepDefinition.user_enters_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "buddy6jar@gmail.com",
+                  "Buddy6jar!"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99720900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on submit button",
+            "match": {
+              "location": "dealsWithMapStepDefinition.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3144755100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user moves to deal pages",
+            "match": {
+              "location": "dealsWithMapStepDefinition.user_moves_to_deal_pages()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3220738800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the deal details",
+            "match": {
+              "location": "dealsWithMapStepDefinition.user_enters_the_deal_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "Probability",
+                  "Amount"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Test1",
+                  "probability_test1",
+                  "1001"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Test2",
+                  "probability_test2",
+                  "1002"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Test3",
+                  "probability_test3",
+                  "1003"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Test4",
+                  "probability_test4",
+                  "1004"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close the deal page",
+            "match": {
+              "location": "dealsWithMapStepDefinition.close_the_deal_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Data table using Map Concept in Cucumber",
+    "description": "",
+    "id": "data-table-using-map-concept-in-cucumber",
+    "keyword": "Feature",
+    "uri": "C:/Java Selenium/CucumberFramework/FreeCrmBDDFramework/src/main/java/Features/dealsmapconcept.feature"
+  }
+]
